@@ -1,0 +1,9 @@
+
+<p>Ask your coach anything:</p>
+<form action="/answer" method="get">
+  <input type="text" class="form-bar"
+         name="question" 
+         placeholder="What are you looking for?"
+         value="<%= params[:question] %>">
+  <input type="submit" class="form-button" value="Ask">
+</form>
